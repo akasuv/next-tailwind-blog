@@ -12,7 +12,7 @@ const getMarkdown = async (url: string) => {
 
 export default async function Home() {
   const markdown = await getMarkdown(
-    "https://github.com/akasuv/next-tailwind-blog/blob/main/README.md"
+    "https://raw.githubusercontent.com/akasuv/next-tailwind-blog/main/README.md"
   );
 
   return (
