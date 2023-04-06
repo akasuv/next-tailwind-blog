@@ -24,7 +24,7 @@ const extend = {
     neutral100: "#f1f5f9",
     neutral700: "#334155",
     neutral900: "#0f172a",
-    informative600: "#ff3d00",
+    informative600: "#4ade80",
     informative200: "#bfdbfe",
     primary600: "#7c3aed",
     informative500: "#3b82f6",
