@@ -1,3 +1,5 @@
+const extend = require("./output/theme.js");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +11,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: extend,
   },
   plugins: [require("@tailwindcss/typography")],
 };

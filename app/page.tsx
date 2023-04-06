@@ -17,6 +17,7 @@ export default async function Home() {
 
   return (
     <article className="prose mx-auto py-8">
+      <p className="text-informative600">Hi</p>
       <ReactMarkdown>{markdown}</ReactMarkdown>
     </article>
   );
